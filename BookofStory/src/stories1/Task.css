@@ -1,0 +1,246 @@
+/* 
+*{  
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8px;
+    bo
+}
+.Specification{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    border-color: 1.5px solid black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 80px;
+    font-size: 8px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    margin-left: 135px;
+    margin-top: -53px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8px;
+
+}
+.c-mid{
+    display:flex;
+    flex-direction: column;
+    margin-left: 230px;
+    margin-top: -53px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 7.5px;
+    
+}
+.l-mid{
+    display: flex;
+    flex-direction: column;
+    margin-left: 360px;
+    margin-top: -51px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 7.5px;
+    align-items: ;
+} 
+
+.specifications-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .specifications-card h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .specification p {
+    margin: 8px 0;
+    font-size: 14px;
+  }
+  
+  .view-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .view-link:hover {
+    text-decoration: underline;
+  } */
+   /* CarSpecifications.css */
+/* CarSpecifications.css */
+/* .specs-container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.specs-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.specs-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.specs-form label {
+  font-size: 0.85rem;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.specs-form input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.specs-footer {
+  margin-top: 15px;
+  color: #ff6600;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+} */
+ 
+/* .features-container {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.features-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.check-icon {
+  color: #28a745; 
+  font-weight: bold;
+}
+
+.toggle-button {
+  color: #ff4500; 
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 12px;
+}
+
+.toggle-button:hover {
+  text-decoration: underline;
+}
+
+.additional-features {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+ } */
+
+ .specifications-container {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  font-family: Arial, sans-serif;
+}
+
+.specifications-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.specifications-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.spec-item {
+  display: flex;
+  justify-content: space-between;
+}
+.spec-item1{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+}
+
+.spec-label {
+  color: #999;
+  font-size: 14px;
+}
+
+.spec-value {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.view-more {
+  margin-top: 10px;
+}
+
+.view-more-link {
+  color: #e55353;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+.pet{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.categories {
+  font-size: 12px;
+  color: #999;
+}
