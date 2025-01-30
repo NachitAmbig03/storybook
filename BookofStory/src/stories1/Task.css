@@ -186,7 +186,7 @@ body{
   border-radius: 10px;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.8);
   width: 600px;
   font-family: Arial, sans-serif;
 }
@@ -219,9 +219,10 @@ body{
 }
 
 .spec-value {
-  margin-left: 20px;
+  margin-left: 14px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 10px;
+  align-items: center;
 }
 
 .view-more {
@@ -234,6 +235,21 @@ body{
   text-decoration: none;
   font-size: 14px;
 }
+button{
+  color: #e55353;
+  size: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+button:hover{
+  background-color: lightgray;
+  border-radius: 4px;
+}
+.spc-dtl{
+  margin-top: 10px;
+  padding: 10px;
+}
 .pet{
   display: flex;
   flex-direction: column;
@@ -241,6 +257,29 @@ body{
 }
 
 .categories {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight:bold;
   color: #999;
+  text-decoration:line-through;
 }
+.additionl-spec{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+.u-spec{
+  display: flex;
+  justify-content:space-between;
+  font-family: 12px;
+}
+.u1-spec{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+/* button.eng-btn{
+ overflow: hidden;
+}  */
+/* .togl.btn{
+  font-weight: bold;
+} */
